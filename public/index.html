@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="heade">
+        <h1>weather</h1>
+        <p>my firt APi web site</p>
+    </div>
+    <div class="dropdawn">
+        <label for="country">select country</label>
+        <select name="" id="country"></select>
+    </div>
+    <div class="info">
+        <label for="capital">capital city:</label>
+        <input type="text" name="capital" readonly>
+
+        <label for="temptur">temptur:</label>
+        <input type="text" name="temptur" readonly value="">
+
+        <label for="condition">condition:</label>
+        <input type="text" name="condition" readonly>
+
+        <label for="humidity">humidity:</label>
+        <input type="text" name="humidity" readonly>
+    </div>
+    <div id="map">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

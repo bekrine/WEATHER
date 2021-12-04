@@ -1,0 +1,18 @@
+#map {
+  height: 180px;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.heade {
+  font-size: 2rem;
+  box-shadow: 1px 1px 1px rgb(199, 193, 193);
+  text-align: center;
+}
+.dropdawn {
+  text-align: center;
+  margin: 5% auto;
+}
